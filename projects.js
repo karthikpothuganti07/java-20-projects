@@ -169,20 +169,20 @@
 
 
 
-// function callme(raju,...rani){
-//     let value=0;
-//     for(var i in rani){
-//         value+=rani[i]
-//     }
-//         document.write(raju,value)
-//     }
-//     callme("ram",1,2,3,4,5,6,7,8,9,10,"sunny")
+function callme(raju,...rani){
+    let value=0;
+    for(var i in rani){
+        value+=rani[i]
+    }
+        document.write(raju,value)
+    }
+    callme("ram",1,2,3,4,5,6,7,8,9,10,"sunny")
 
 
-//     const ant=[1,2,3,4,5,6]
-//     for(let a of ant ){
-//         document.write(a*20+"<hr>")
-//     }
+    const ant=[1,2,3,4,5,6]
+    for(let a of ant ){
+        document.write(a*20+"<hr>")
+    }
 
 
 
@@ -211,26 +211,25 @@
 // console.log("nenu pedda erripappa ni")
 
 
-var yesgreetings=(apple)=>{
+var yesgreetings=()=>{
     setTimeout(()=>{
         console.log("hi andi")
-        apple()
     },1000)
 }
 
 var yesname=()=>{
     setTimeout(()=>{
-        console.log("na peru uppal bal")
+        console.log("hello guys")
     },3000)
 }
 var yesplace=()=>{
     setTimeout(()=>{
-        console.log("arangal beach  ki ochanandi")
+        console.log("well come to my world")
     },4000)
 }
 var yesgoa=()=>{
     setTimeout(()=>{
-        console.log("first time and goa ravadam")
+        console.log("thank you for visting")
     },2000)
 }
 
@@ -249,3 +248,10 @@ yesgreetings()
     yesname()
 yesplace()
 yesgoa()
+
+
+// const firstname()=>{
+//     setTimeout(()=>{
+//         console.log("hi pranaya pottadu")
+//     })
+// }
